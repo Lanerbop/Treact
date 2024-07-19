@@ -66,7 +66,7 @@ input::placeholder {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 3rem;
     color: rgb(26 32 44);
     font-weight: 700;
 }
@@ -320,6 +320,10 @@ HAMBURGER
     right: 20px;
     top: 10px;
     padding: 8px;
+}
+
+.hamburger__btn {
+    margin-top: 1rem;
 }
 
 /* 
@@ -774,6 +778,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         margin-top: 3rem;
         width: 100%;
     }
+}
 
 @media (max-width: 768px) {
     .service__card {
