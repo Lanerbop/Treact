@@ -188,7 +188,6 @@ HEADER
 
 .header__container {
     padding-top: 6rem;
-    padding-bottom: 6rem;
     display: flex;
     justify-content: center;
     animation: slideFromLeft 600ms;
