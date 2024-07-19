@@ -406,18 +406,19 @@ DESIGNED
     width: 50%;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-right: 4rem;
+    text-align: center;
 }
 
 .designed__heading {
-    text-align: left;
+    text-align: center;
     margin-top: 1rem;
+    width: 100%;
     /* this is to make lines of text match. better way? */
     line-height: 1.25;
 }
 
 .designed__description--para {
+    width: 100%;
     margin: 2rem 0;
 }
 
@@ -800,10 +801,31 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     .header__description {
         width: 100%;
     }
+
+    .designed__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .designed__description {
+        width: 100%;
+    }
 }
 
 @media (max-width: 550px) {
 
+    .service__card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__img--container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 
     .get-started__button {
         margin-top: 2rem;
