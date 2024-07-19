@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Modern React Templates</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/3120e74a2b.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="body__container">
@@ -27,6 +29,24 @@
             <a href="" class="nav__link">Contact Us</a>
             <a href="" class="nav__link nav__link--login">Login</a>
             <button class="btn nav__button">Sign Up</button>
+          </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="">About</a></li>
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="">Blog</a></li>
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="">Pricing</a></li>
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="">Contact Us</a></li>
+              <li class="menu__list"><a class="menu__link" onclick="closeMenu()" href="">Login</a></li>
+              <li> 
+                <button class="btn">Sign Up</button>
+              </li>
+            </ul>
           </div>
         </nav>
 
