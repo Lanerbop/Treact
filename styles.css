@@ -191,6 +191,7 @@ HEADER
     padding-bottom: 6rem;
     display: flex;
     justify-content: center;
+    animation: slideFromLeft 600ms;
 }
 
 .header__description {
@@ -337,6 +338,7 @@ SERVICE
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: slideFromRight 600ms;
 }
 
 .services {
@@ -387,6 +389,7 @@ DESIGNED
 .designed__container {
     display: flex;
     justify-content: center;
+    animation: slideFromLeft 600ms;
 }
 
 
@@ -439,6 +442,7 @@ GET STARTED
 .get-started__container {
     display: flex;
     align-items: center;
+    animation: slideFromRight 600ms;
 }
 
 .get-started__row {
@@ -503,6 +507,7 @@ PRICING
 .pricing__container {
     display: flex;
     justify-content: center;
+    animation: slideFromLeft 600ms;
 }
 
 .pricing__row {
@@ -842,5 +847,27 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
     .copyright {
         margin-top: 1rem;
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
