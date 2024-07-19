@@ -668,6 +668,8 @@ FOOTER
     background-color: #6415ff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__row {
