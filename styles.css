@@ -864,6 +864,22 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         width: 90%;
     }
 
+
+
+    .link__section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .link__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
     .legal {
         flex-direction: column;
     }
