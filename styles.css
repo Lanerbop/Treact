@@ -755,6 +755,59 @@ TESTIMONIALS
 
 /* 
 
+FAQ
+
+*/
+
+.faq__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq__description {
+    text-align: center;
+}
+
+.faqs__container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.faq__box {
+    width: 100%;
+    background-color: #edf2f7;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 1rem;
+    margin: 0.75rem;
+    justify-content: space-between;
+}
+
+.faq__box:hover {
+    background-color: #e2e8f0;
+}
+
+.faq__question {
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.arrow--down {
+    align-self: center;
+}
+
+.arrow--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+
 FOOTER
 
 */
