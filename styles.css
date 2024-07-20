@@ -113,6 +113,10 @@ h2 {
     font-weight: 900;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 
 /* 
 
@@ -804,6 +808,55 @@ FAQ
 .arrow--wrapper {
     display: flex;
     align-items: center;
+}
+
+/* 
+
+HAPPY
+
+*/
+
+.happy__container {
+    background-color: #6415ff;
+    border-radius: 1rem;
+    padding-bottom: 4rem;
+}
+
+.happy__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.happy__description {
+    font-size: 1.875rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.happy__get-started, 
+.happy__contact-us {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.happy__get-started {
+    background-color: #f56565;
+}
+
+.happy__get-started:hover {
+    background-color: rgb(229, 62, 62);
+}
+
+
+.happy__contact-us {
+    border: solid 1px white;
+}
+
+.happy__contact-us:hover {
+    background-color: white;
+    color: #6415ff;
 }
 
 /* 
