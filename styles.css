@@ -671,6 +671,10 @@ TESTIMONIALS
     margin-right: 2rem;
 }
 
+.testimonials__subheading {
+    text-align: center;
+}
+
 .testimonials__img {
     width: 100%;
 }
@@ -789,6 +793,7 @@ FAQ
     padding: 1rem;
     margin: 0.75rem;
     justify-content: space-between;
+    transition: all 300ms ease;
 }
 
 .faq__box:hover {
@@ -940,6 +945,38 @@ h5 {
     display: flex;
 }
 
+.copyright {
+    text-align: center;
+}
+
+.social__links {
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+.social__link--icon {
+    margin: 0.75rem;
+    background-color: #fdfeff;
+    border-radius: 999px;
+    transition: all 300ms ease;
+}
+
+.social__link--icon:hover {
+    background-color: #dfe2e4;
+}
+
+.fa-twitter {
+    padding: 8px;
+}
+
+.fa-facebook-f {
+    padding: 8px 11px;
+}
+
+.fa-youtube {
+    padding: 8px 7px;
+}
+
 /* 
 
 SMALL PHONES, TABLETS, LARGE SMARTPHONES 
@@ -977,6 +1014,12 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         width: 50%;
     }
 
+    .designed__row {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
     .designed__description {
         display: flex;
         justify-content: center;
@@ -991,13 +1034,10 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         text-align: center;
     }
 
-    .designed__row {
-        flex-direction: column;
-        width: 100%;
-    }
+
 
     .designed__img--wrapper {
-        margin-top: 3rem;
+        margin-bottom: 3rem;
         width: 100%;
     }
 }
