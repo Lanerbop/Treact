@@ -114,7 +114,6 @@ h2 {
 }
 
 
-
 /* 
 
 NAV BAR
@@ -656,6 +655,102 @@ PRICING
     cursor: default;
 }
 
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials__img--wrapper {
+    display: flex;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.testimonials__img {
+    width: 100%;
+}
+
+.testimonials__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients__description {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stars {
+    margin: 1rem 0;
+    color: #f6ad55;
+}
+
+.testimonial__heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.75rem 0;
+    color: #243e63;
+}
+
+.testimonials__review {
+    font-size: 16px;
+    margin-bottom: 2.5rem;
+}
+
+.customer-controls__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer__info--container {
+    display: flex;
+    align-items: center;
+}
+
+.customer__img--wrapper {
+    width: 20%;
+}
+
+.customer__img {
+    border-radius: 9999px;
+    width: 100%;
+}
+
+.customer-identifier__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.customer__name {
+    margin-bottom: 0;
+}
+
+.customer__title {
+    margin-top: 0;
+}
+
+.control__container {
+    display: flex;
+    align-items: center;
+}
+
+.btn--arrow {
+    width: 100%;
+    margin: 1rem;
+    border: none;
+    border-radius: 999px;
+    padding: 1rem;
+    color: #6415ff;
+    transition: all 300ms ease;
+}
+
+.btn--arrow:hover {
+    background-color: #e2e8f0;
+}
 
 
 /* 
@@ -813,9 +908,48 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     .designed__description {
         width: 100%;
     }
+
+    .get-started__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get-started__img--wrapper {
+        margin: 0 0 2rem 0;
+        width: 80%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .get-started__description {
+        width: 80%;
+        align-items: center;
+    }
+
+    .testimonials__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials__img--wrapper {
+        margin-bottom: 5rem;
+        width: 90%;
+    }
+
+    .testimonials__description {
+        width: 80%;
+    }
+
+    .plan {
+        width: 70%;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
 
     .service__card {
         display: flex;
