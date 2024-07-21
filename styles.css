@@ -932,6 +932,11 @@ h5 {
     text-decoration: underline 2px rgba(255, 255, 255, 1);
 }
 
+.footer__logo--container:hover .footer__treact {
+
+    cursor: default;
+}
+
 .legal {
     padding: 0 4rem;
     width: 100%;
