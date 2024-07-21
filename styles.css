@@ -1116,9 +1116,17 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
 @media (max-width: 570px) {
 
+    .container {
+        padding: 3rem 0 2rem 0;
+    }
+
     .service__card {
         display: flex;
         flex-direction: column;
+    }
+
+    .trusted-customer__container {
+        padding: 3rem 1rem 1rem 1rem;
     }
 
     .service__img--container {
@@ -1142,6 +1150,10 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         text-align: center;
     }
 
+    .designed__container {
+        padding-top: 0rem;
+    }
+
     .designed__img--wrapper {
         margin-top: 5rem;
     }
@@ -1163,7 +1175,9 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         width: 90%;
     }
 
-
+    .customer__img--wrapper {
+        min-width: 3rem;
+    }
 
     .link__section {
         width: 50%;
